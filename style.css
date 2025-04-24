@@ -9,31 +9,32 @@ body {
 }
 .map-container {
   position: relative;
-  display: inline-block;
+  width: 700px;
+  height: 875px;
+  margin: 0 auto;
 }
 .map-container img {
   width: 100%;
-  max-width: 700px;
+  height: 100%;
   border: 3px solid #FFD700;
   display: block;
-  height: auto;
 }
 .jour {
   position: absolute;
   background-color: rgba(255, 215, 0, 0.4);
   border: 2px solid #FFD700;
-  width: 15%;
-  height: 8%;
+  width: 120px;
+  height: 50px;
   cursor: pointer;
   z-index: 100;
   text-align: center;
-  line-height: 200%;
+  line-height: 50px;
   color: #000;
 }
-#vendredi { top: 13%; left: 9%; }
-#samedi { top: 14%; left: 66%; }
-#dimanche { top: 45%; left: 40%; }
-#lundi { top: 72%; left: 12%; }
+#vendredi { top: 95px; left: 70px; }
+#samedi { top: 110px; left: 480px; }
+#dimanche { top: 355px; left: 290px; }
+#lundi { top: 635px; left: 90px; }
 .jour span {
   position: absolute;
   width: 100%;
