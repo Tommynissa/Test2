@@ -23,15 +23,15 @@ body {
   position: absolute;
   background-color: rgba(255, 215, 0, 0.4);
   border: 2px solid #FFD700;
-  width: 120px;
-  height: 50px;
+  width: 144px;
+  height: 60px;
   cursor: pointer;
   z-index: 100;
   text-align: center;
-  line-height: 50px;
+  line-height: 60px;
   color: #000;
 }
-#vendredi { top: 95px; left: 70px; }
+#vendredi { top: 95px; left: 90px; }  /* repositionné plus à droite */
 #samedi { top: 110px; left: 480px; }
 #dimanche { top: 355px; left: 290px; }
 #lundi { top: 635px; left: 90px; }
