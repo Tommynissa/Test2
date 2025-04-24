@@ -31,10 +31,10 @@ body {
   line-height: 60px;
   color: #000;
 }
-#vendredi { top: 95px; left: 90px; }  /* repositionné plus à droite */
-#samedi { top: 110px; left: 480px; }
-#dimanche { top: 355px; left: 290px; }
-#lundi { top: 635px; left: 90px; }
+#vendredi { top: 115px; left: 45px; }
+#samedi   { top: 100px; left: 510px; }
+#dimanche { top: 370px; left: 265px; }
+#lundi    { top: 655px; left: 95px; }
 .jour span {
   position: absolute;
   width: 100%;
